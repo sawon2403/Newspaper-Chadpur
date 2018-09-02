@@ -11,12 +11,12 @@
                             <li><a href="{{('/chadpur')}}">চাঁদপুর</a></li>
                             <li><a href="{{('/rajniti')}}">রাজনীতি  </a></li>
                             <li><a href="{{('/khela')}}">খেলা</a></li>
-                            <li><a href="{{('/binodon')}}">বিনোদনথ্য</a></li>
+                            <li><a href="{{('binodon.blade.php')}}">বিনোদনথ্য</a></li>
                             <li><a href="{{('/helth')}}">স্বাস্থ্য </a></li>
                             <li><a href="{{('/interview')}}">সাক্ষাতকার </a></li>
                             <li><a href="{{('/crime')}}">অপরাধ</a></li>
                             <li><a href="{{('/islam')}}">ইসলাম</a></li>
-                            <li><a href="{{('/motamot')}}">মতামত</a></li>
+                            <li><a href="{{('motamot.blade.php')}}">মতামত</a></li>
                         </ul>
                     </div>
                     <hr>

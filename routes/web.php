@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('front-end.layout');
+    return view('front-end.welcome.welcome');
 });
