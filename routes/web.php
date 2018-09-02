@@ -29,3 +29,7 @@ Route::get('/crime','Front_end\CategoryController@crime')->name('/crime');
 Route::get('/motamot','Front_end\CategoryController@motamot')->name('/motamot');
 Route::get('/helth','Front_end\CategoryController@helth')->name('/helth');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
