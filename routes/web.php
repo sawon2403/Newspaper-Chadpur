@@ -32,4 +32,6 @@ Route::get('/helth','Front_end\CategoryController@helth')->name('/helth');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'HomeController@index')->name('/dashboard');
+
+Route::get('/addCategory','Dashboard\DashboardController@addCategory')->name('/addCategory');

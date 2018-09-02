@@ -1,0 +1,28 @@
+.fb{
+    background-color: #3A559F;
+    color: white;
+}
+.gplus{
+    background-color: #DD4B38;
+    color: white;
+
+}
+
+.twtr{
+    background-color: #157DC3;
+    color: white;
+}
+.wrapper{
+    height: 100vh !important;
+}
+.form-horizontal .control-label {
+    text-align: left;
+    font-size: 16px;
+}
+.name-address{
+    margin-top: 20px;
+    background-color: white;
+}
+.name-address th,td{
+    padding:4px;
+}
