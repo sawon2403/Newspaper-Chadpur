@@ -14,7 +14,7 @@
                                     <!-- Chadpur section main post 1-->
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="image/chicago.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/chicago.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#">
                                             <h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6>
@@ -32,7 +32,7 @@
                                 <div class="col-md-3">
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="image/la.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/la.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#">
                                             <h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6>
@@ -50,7 +50,7 @@
                                 <div class="col-md-3">
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="image/la.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/la.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#">
                                             <h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6>
@@ -68,7 +68,7 @@
                                     <!-- Chadpur section main post 1-->
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="image/chicago.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/chicago.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#">
                                             <h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6>

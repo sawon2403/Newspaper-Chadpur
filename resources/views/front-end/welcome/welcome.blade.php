@@ -21,7 +21,7 @@
                             <!-- The slideshow -->
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <a href=""><img src="image/la.jpg" alt="Los Angeles" width="1100" height="500"></a>
+                                    <a href=""><img src="{{asset('assets/front-end/image/')}}/la.jpg" alt="Los Angeles" width="1100" height="500"></a>
                                     <div class="carousel-caption">
                                         <div class="top-news">
                                             <div class="news-shorting l-p">
@@ -42,7 +42,7 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href=""><img src="image/ny.jpg" alt="Los Angeles" width="1100" height="500"></a>
+                                    <a href=""><img src="{{asset('assets/front-end/image/')}}/ny.jpg" alt="Los Angeles" width="1100" height="500"></a>
                                     <div class="carousel-caption">
                                         <div class="top-news">
                                             <div class="news-shorting l-p">
