@@ -29,41 +29,31 @@
                     <div class="text-editor">
                         <div class="panel panel-default">
                             <div class="panel-heading">New article</div>
-                            @include('flash::message')
                             <div class="panel-body">
-                                {{ Form::open(array('url' => route('post.store'),'files' => true)) }}
-                                    <div class="form-group">
-                                        {{ Form::label('title', 'Title')}}
-                                        {{ Form::text('title',null,['class'=>'form-control','placeholder'=>'Enter Title'])}}
-                                    </div>
-                                    <div class="form-group">
-                                        {{ Form::label('title', 'Title')}}
-                                        {{ Form::file('image',null,['class'=>'form-control','placeholder'=>'Enter Title'])}}
-                                    </div>
-                                    <div class="form-group">
-                                        {{Form::label('category', 'Category Select')}}
+                                <div class="form-group">
+                                    <label>Title</label>
+                                    <input type="text" class="form-control" placeholder="Enter title">
+                                </div>
+                                <div class="form-group">
+                                    <label>Category Select</label>
+                                    <select class="form-control">
+                                        @foreach($data as $data)
+                                            <option value="{{$data->id}}">{{$data->name}}</option>
+                                         @endforeach
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Category Select</label>
+                                   <textarea class="form-control">
 
-                                        <select class="form-control" name="category_id">
-                                            @foreach($data as $data)
-                                                <option value="{{$data->id}}">{{$data->name}}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        {{Form::label('status', 'Select Status')}}
-                                        {{Form::select('status', array('0' => 'Save', '1' => 'Post'))}}
-                                    </div>
-                                    <div class="form-group">
-                                        {{Form::label('dic', 'Short Description')}}
-                                        {{ Form::textarea('short_description',null,['class'=>'form-control','rows'=>5])}}
-                                    </div>
-                                    {{Form::label('content', 'Content')}}
-                                    <div id="summernote"></div>
-                                    <div class="form-group text-right" style="margin-top:20px">
-                                        {{Form::submit('Submit',['class'=>'btn btn-success'])}}
-                                    </div>
-                                {{ Form::close() }}
-
+                                   </textarea>
+                                </div>
+                                <label>Content</label>
+                                <div id="summernote"></div>
+                                <div class="form-group text-right" style="margin-top:20px">
+                                    <button type="submit" class="btn btn-default">Save Draft</button>
+                                    <button type="submit" class="btn btn-primary">Post</button>
+                                </div>
                             </div>
                         </div>
                     </div>

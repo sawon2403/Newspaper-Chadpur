@@ -33,6 +33,7 @@ class DashboardController extends Controller
         $data = new Category();
         $data->name = $request->name;
         $data->save();
+
         flash("{$data->name} successfully insert")->success();
         return redirect()->back();
     }

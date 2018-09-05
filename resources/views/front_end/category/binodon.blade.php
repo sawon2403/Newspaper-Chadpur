@@ -29,7 +29,7 @@
                                 <div class="col-md-6">
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/la.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
                                         <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
@@ -45,7 +45,7 @@
                                 <div class="col-md-6">
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/la.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
                                         <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
@@ -61,7 +61,7 @@
                                 <div class="col-md-6">
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/la.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
                                         <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
@@ -77,7 +77,7 @@
                                 <div class="col-md-6">
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('front_end')}}/la.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
                                         <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
@@ -112,7 +112,7 @@
                                     <!-- rajniti section main post 1-->
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/chicago.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/chicago.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
                                         <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
@@ -128,7 +128,7 @@
                                 <div class="col-md-3">
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('front_end')}}/la.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
                                         <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
@@ -144,7 +144,7 @@
                                 <div class="col-md-3">
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/la.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
                                         <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
@@ -160,7 +160,7 @@
                                     <!-- rajniti section main post 1-->
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/chicago.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/chicago.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
                                         <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
