@@ -1,5 +1,6 @@
-@extends('front-end.layout')
-@section('title','Antarjatik')
+@extends('front_end.layout')
+@section('title','Helth')
+
 
 @section('content')
     <!--page subtitle area using bootstrap breadcrumbs-->
@@ -10,7 +11,8 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i></a></li>
-                            <li class="breadcrumb-item active" aria-current="page">আন্তর্জাতিক</li>
+                            <li class="breadcrumb-item"><a href="#">অন্যান্য</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">স্বাস্থ্য</li>
                         </ol>
                     </nav>
                 </div>
@@ -95,7 +97,7 @@
                 </div>
 
                 <!-- lastest news will be publish here-->
-                @include('front-end.partials.latest_news')
+                @include('front_end.partials.latest_news')
         </div>
     </div>
     <!--    Jatio section other posts will be published here-->
@@ -144,7 +146,7 @@
                                 <div class="col-md-3">
                                     <div class="initial-post">
                                         <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/la.jpg" alt=""></a>
+                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('front_end')}}/la.jpg" alt=""></a>
                                         </div>
                                         <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
                                         <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
@@ -179,5 +181,6 @@
             </div>
         </div>
     </div>
-
 @stop
+
+

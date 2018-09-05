@@ -9,7 +9,7 @@
                 <div class="col-md-6">
                     <div class="initial-post">
                         <div class="news-image">
-                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front-end/image/')}}/s.jpg" alt=""></a>
+                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/s.jpg" alt=""></a>
                         </div>
                         <a class="change-color" href="#">
                             <h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6>
@@ -27,14 +27,14 @@
                     <div class="container-fluid p-none ">
                         <div class="flex-post">
                             <div class="row no-gutters">
-                                <div class="col-md-5"><img class="img-fluid" src="{{asset('assets/front-end/image/')}}/d.jpg" alt=""></div>
+                                <div class="col-md-5"><img class="img-fluid" src="{{asset('assets/front_end/image/')}}/d.jpg" alt=""></div>
                                 <div class="col-md-7 "><a href="">হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</a></div>
                                 <a href="#" class="link-overlay"></a>
                             </div>
                         </div>
                         <div style="margin-top: 10px" class="flex-post">
                             <div class="row no-gutters">
-                                <div class="col-md-5"><img class="img-fluid" src="{{asset('assets/front-end/image/')}}/f.jpg" alt=""></div>
+                                <div class="col-md-5"><img class="img-fluid" src="{{asset('assets/front_end/image/')}}/f.jpg" alt=""></div>
                                 <div class="col-md-7 "><a href="">হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</a></div>
                                 <!--                                                    post link should be inserted bellow in href-->
                                 <a href="#" class="link-overlay"></a>
@@ -42,7 +42,7 @@
                         </div>
                         <div style="margin-top: 10px" class="flex-post">
                             <div class="row no-gutters">
-                                <div class="col-md-5"><img class="img-fluid" src="{{asset('assets/front-end/image/')}}/d.jpg" alt=""></div>
+                                <div class="col-md-5"><img class="img-fluid" src="{{asset('assets/front_end/image/')}}/d.jpg" alt=""></div>
                                 <div class="col-md-7 "><a href="">হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</a></div>
                                 <!--post link should be inserted bellow in href-->
                                 <a href="#" class="link-overlay"></a>
@@ -50,7 +50,7 @@
                         </div>
                         <div style="margin-top: 10px" class="flex-post">
                             <div class="row no-gutters">
-                                <div class="col-md-5"><img class="img-fluid" src="{{asset('assets/front-end/image/')}}/s.jpg" alt=""></div>
+                                <div class="col-md-5"><img class="img-fluid" src="{{asset('assets/front_end/image/')}}/s.jpg" alt=""></div>
                                 <div class="col-md-7 "><a href="">হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</a></div>
                                 <!--post link should be inserted bellow in href-->
                                 <a href="#" class="link-overlay"></a>

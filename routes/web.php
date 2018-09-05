@@ -35,5 +35,7 @@ Auth::routes();
 Route::get('/dashboard', 'HomeController@index')->name('/dashboard');
 
 Route::get('/addCategory','Dashboard\DashboardController@addCategory')->name('/addCategory');
-Route::post('/store','Dashboard\DashboardController@store')->name('/store');
+//Route::post('/store','Dashboard\DashboardController@store')->name('/store');
+Route::resource('/store','Dashboard\DashboardController');
+Route::resource('/post','Dashboard\PostController');
 Route::get('/post','Dashboard\DashboardController@post')->name('/post');
