@@ -30,30 +30,44 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">New article</div>
                             <div class="panel-body">
+                                {{ Form::open(array('url' => route('post.store'),'method' => 'post')) }}
                                 <div class="form-group">
-                                    <label>Title</label>
-                                    <input type="text" class="form-control" placeholder="Enter title">
+                                    {{Form::label('title','Enter Titile')}}
+                                    {{ Form::text('title',null, ['class' => 'form-control', 'placeholder'=>'Enter Titile', 'required' => 'required']) }}
                                 </div>
                                 <div class="form-group">
-                                    <label>Category Select</label>
-                                    <select class="form-control">
+                                    {{Form::label('title','Select Category')}}
+                                    <select class="form-control" name="category_id" required="">
                                         @foreach($data as $data)
                                             <option value="{{$data->id}}">{{$data->name}}</option>
-                                         @endforeach
+                                        @endforeach
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label>Category Select</label>
-                                   <textarea class="form-control">
-
-                                   </textarea>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            {{Form::label('Public || UnPublic')}}
+                                        </div>
+                                        <div class="col-md-2">
+                                            {{Form::radio('status', '0', true)}}
+                                            {{Form::label('Save','Save')}}
+                                        </div>
+                                        <div class="col-md-2">
+                                            {{Form::radio('status', '1', true)}}
+                                            {{Form::label('Post','Post')}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    {{Form::label('short_description','Short Description')}}
+                                    {{Form::textarea('short_description',null, ['class' => 'form-control', 'placeholder'=>'Short Description', 'required' => 'required']) }}
                                 </div>
                                 <label>Content</label>
                                 <div id="summernote"></div>
                                 <div class="form-group text-right" style="margin-top:20px">
-                                    <button type="submit" class="btn btn-default">Save Draft</button>
-                                    <button type="submit" class="btn btn-primary">Post</button>
+                                    {{Form::submit('Submit',['class'=>'btn btn-primary'])}}
                                 </div>
+                                {!! Form::close() !!}
                             </div>
                         </div>
                     </div>

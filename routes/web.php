@@ -36,4 +36,5 @@ Route::get('/dashboard', 'HomeController@index')->name('/dashboard');
 
 Route::get('/addCategory','Dashboard\DashboardController@addCategory')->name('/addCategory');
 Route::resource('/store','Dashboard\DashboardController');
+Route::resource('/post','Dashboard\DashboardController');
 Route::get('/post','Dashboard\DashboardController@post')->name('/post');
