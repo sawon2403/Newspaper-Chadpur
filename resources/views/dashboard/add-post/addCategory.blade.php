@@ -39,7 +39,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading text-center">Add Category</div>
                             <div class="panel-body">
-                                {{ Form::open(array('url' => array('store'),'method' => 'post')) }}
+                                {{ Form::open(array('url' => route('store.store'),'method' => 'post')) }}
                                     <div class="form-group">
                                         {{ Form::label('title','Category Name') }}
                                         {{Form::text('name','',['class'=>'form-control','placeholder'=>'Category Name','required'])}}
