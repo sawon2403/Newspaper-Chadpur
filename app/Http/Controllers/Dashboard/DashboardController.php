@@ -29,11 +29,7 @@ class DashboardController extends Controller
     public function store(Request $request)
     {
 
-//        $data = Category::created($request->all());
-        $data = new Category();
-        $data->name = $request->name;
-        $data->save();
-
+        $data = Category::create($request->all());
         flash("{$data->name} successfully insert")->success();
         return redirect()->back();
     }

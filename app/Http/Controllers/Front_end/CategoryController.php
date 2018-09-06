@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Front_end;
 
+use App\NewsPost;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -10,7 +11,8 @@ class CategoryController extends Controller
 
     public function jatio()
     {
-        return view('front_end.category.jatio');
+        $posts = NewsPost::all();
+       return view('front_end.category.jatio',compact('posts'));
     }
 
     public function antarjatik()

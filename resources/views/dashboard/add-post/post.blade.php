@@ -23,14 +23,14 @@
         <!--    Page  heading-->
         <section class="content">
             <div class="row">
-
+            @include('flash::message')
                 <!--    /Page  heading-->
                 <div class="col-md-12">
                     <div class="text-editor">
                         <div class="panel panel-default">
                             <div class="panel-heading">New article</div>
                             <div class="panel-body">
-                                {{ Form::open(array('url' => route('post.store'),'method' => 'post')) }}
+                                {{ Form::open(array('url' => route('post.store'),'method' => 'post','files' => true)) }}
                                 <div class="form-group">
                                     {{Form::label('title','Enter Titile')}}
                                     {{ Form::text('title',null, ['class' => 'form-control', 'placeholder'=>'Enter Titile', 'required' => 'required']) }}
@@ -59,11 +59,15 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    {{Form::label('image','Upload Image')}}
+                                    {{ Form::file('image', ['class' => 'form-control custom-file-input ', 'required' => 'required']) }}
+                                </div>
+                                <div class="form-group">
                                     {{Form::label('short_description','Short Description')}}
-                                    {{Form::textarea('short_description',null, ['class' => 'form-control', 'placeholder'=>'Short Description', 'required' => 'required']) }}
+                                    {{Form::textarea('short_description',null, ['class' => 'form-control', 'rows'=>3, 'placeholder'=>'Short Description', 'required' => 'required']) }}
                                 </div>
                                 <label>Content</label>
-                                <div id="summernote"></div>
+                                {{Form::textarea('long_description',null,['id'=>'summernote'])}}
                                 <div class="form-group text-right" style="margin-top:20px">
                                     {{Form::submit('Submit',['class'=>'btn btn-primary'])}}
                                 </div>

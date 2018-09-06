@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use App\NewsPost;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
 
 class PostController extends Controller
 {
@@ -37,17 +39,21 @@ class PostController extends Controller
     public function store(Request $request)
     {
 
-    $post = new NewsPost();
-    $post->title = $request->title;
-    $post->category_id = $request->category_id;
-    $post->short_description = $request->short_description;
-    $post->long_description = $request->short_description;
-    $post->status = $request->status;
-    $post->image = $request->file('image')->store('assets/front_end/image/');
-    $post->save();
 
-    flash("{$post->title} successfully insert")->success();
-    return redirect()->back();
+        $data = Auth::user()->id;
+        $post = new NewsPost();
+
+        $post->title = $request->title;
+        $post->user_id = $data;
+        $post->category_id = $request->category_id;
+        $post->short_description = $request->short_description;
+        $post->long_description = $request->long_description;
+        $post->status = $request->status;
+        $post->image = $request->image->store('/');
+        $post->save();
+        flash("{$post->title} successfully insert")->success();
+        return redirect()->back();
+
     }
 
     /**

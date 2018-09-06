@@ -11,9 +11,7 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('front-end.welcome.welcome');
-//});
+
 
 Route::get('/','NewspaperWelcome@index');
 
@@ -33,8 +31,7 @@ Route::get('/helth','Front_end\CategoryController@helth')->name('/helth');
 Auth::routes();
 
 Route::get('/dashboard', 'HomeController@index')->name('/dashboard');
-
-Route::get('/addCategory','Dashboard\DashboardController@addCategory')->name('/addCategory');
+Route::get('/addCategory','Dashboard\DashboardController@addCategory')->middleware('auth');
 Route::resource('/store','Dashboard\DashboardController');
-Route::resource('/post','Dashboard\DashboardController');
-Route::get('/post','Dashboard\DashboardController@post')->name('/post');
+Route::resource('/post','Dashboard\PostController');
+Route::get('/post','Dashboard\DashboardController@post')->middleware('auth');

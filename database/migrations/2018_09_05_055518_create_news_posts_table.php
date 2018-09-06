@@ -18,8 +18,8 @@ class CreateNewsPostsTable extends Migration
             $table->string('title');
             $table->unsignedInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');
-//            $table->foreign('user_id')->references('id')->on('users');
-//            $table->tinyInteger('user_id');
+            $table->unsignedInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->mediumText('short_description');
             $table->longText('long_description');
             $table->string('image',160)->unique();
