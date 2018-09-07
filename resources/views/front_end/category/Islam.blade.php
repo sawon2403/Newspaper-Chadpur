@@ -28,13 +28,14 @@
                         <div class="container">
                             <div class="row">
                                 <!-- jatio news post 1-->
+                                @foreach($posts as $post)
                                 <div class="col-md-6">
                                     <div class="initial-post">
                                         <div class="news-image">
                                             <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
                                         </div>
-                                        <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
-                                        <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
+                                        <a class="change-color" href="#"><h6>{{$post->title}}</h6></a>
+                                        <p>{{$post->short_description}}</p>
                                         <a href="#" class="ini-post-overlay"></a>
                                     </div>
 
@@ -43,54 +44,8 @@
                                         <i class="fa fa-calendar"><span>7/8/12</span></i>
                                     </div>
                                 </div>
+                                @endforeach
                                 <!-- jatio news post 2-->
-                                <div class="col-md-6">
-                                    <div class="initial-post">
-                                        <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
-                                        </div>
-                                        <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
-                                        <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
-                                        <a href="#" class="ini-post-overlay"></a>
-                                    </div>
-
-                                    <div class="time-date">
-                                        <i class="fa fa-clock-o"><span>9:30am</span></i>
-                                        <i class="fa fa-calendar"><span>7/8/12</span></i>
-                                    </div>
-                                </div>
-                                <!-- jatio news post 3-->
-                                <div class="col-md-6">
-                                    <div class="initial-post">
-                                        <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
-                                        </div>
-                                        <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
-                                        <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
-                                        <a href="#" class="ini-post-overlay"></a>
-                                    </div>
-
-                                    <div class="time-date">
-                                        <i class="fa fa-clock-o"><span>9:30am</span></i>
-                                        <i class="fa fa-calendar"><span>7/8/12</span></i>
-                                    </div>
-                                </div>
-                                <!-- jatio news post 4-->
-                                <div class="col-md-6">
-                                    <div class="initial-post">
-                                        <div class="news-image">
-                                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/la.jpg" alt=""></a>
-                                        </div>
-                                        <a class="change-color" href="#"><h6>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</h6></a>
-                                        <p>হাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণহাজীগঞ্জে রোটারী ক্লাব অব উত্তরা’র কম্পিউটার বিতরণ</p>
-                                        <a href="#" class="ini-post-overlay"></a>
-                                    </div>
-
-                                    <div class="time-date">
-                                        <i class="fa fa-clock-o"><span>9:30am</span></i>
-                                        <i class="fa fa-calendar"><span>7/8/12</span></i>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>

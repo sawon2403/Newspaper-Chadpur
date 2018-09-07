@@ -42,7 +42,7 @@ class CategoryController extends Controller
     public  function binodon()
     {
         $posts = NewsPost::where('category_id',2)->limit(4)->offset(0)->where('status',1)->get();
-        return view('front_end.category.binodon',compact('post'));
+        return view('front_end.category.binodon',compact('posts'));
     }
 
     public function islam()
