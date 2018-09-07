@@ -11,58 +11,68 @@ class CategoryController extends Controller
 
     public function jatio()
     {
-        $posts = NewsPost::all();
-       return view('front_end.category.jatio',compact('posts'));
+        $posts = NewsPost::where('category_id',8)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.jatio',compact('posts'));
     }
 
     public function antarjatik()
     {
-        return view('front_end.category.antarjatik');
+        $posts = NewsPost::where('category_id',1)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.antarjatik',compact('posts'));
     }
 
     public  function chadpur()
     {
-        return view('front_end.category.chadpur');
+        $posts = NewsPost::where('category_id',3)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.chadpur',compact('posts'));
     }
 
     public  function khela()
     {
-        return view('front_end.category.khela');
+        $posts = NewsPost::where('category_id',9)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.khela',compact('posts'));
     }
 
     public  function rajniti()
     {
-        return view('front_end.category.rajniti');
+        $posts = NewsPost::where('category_id',11)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.rajniti',compact('posts'));
     }
 
     public  function binodon()
     {
-        return view('front_end.category.binodon');
+        $posts = NewsPost::where('category_id',2)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.binodon',compact('post'));
     }
 
     public function islam()
     {
-        return view('front_end.category.Islam');
+        $posts = NewsPost::where('category_id',7)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.Islam',compact('posts'));
     }
 
     public function interview()
     {
-        return view('front_end.category.interview');
+        $posts = NewsPost::where('category_id',6)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.interview',compact('posts'));
     }
 
     public function crime()
     {
-        return view('front_end.category.crime');
+        $posts = NewsPost::where('category_id',4)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.crime',compact('posts'));
     }
 
     public function motamot()
     {
-        return view('front_end.category.motamot');
+        $posts = NewsPost::where('category_id',10)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.motamot',compact('posts'));
     }
 
     public function helth()
     {
-        return view('front_end.category.helth');
+        $posts = NewsPost::where('category_id',5)->limit(4)->offset(0)->where('status',1)->get();
+        return view('front_end.category.helth',compact('posts'));
     }
 
 
