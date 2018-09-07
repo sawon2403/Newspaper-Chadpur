@@ -11,7 +11,7 @@
                     <!-- jatio section main post 1-->
                     <div class="initial-post">
                         <div class="news-image">
-                            <a href=""><img class="img-fluid img-thumbnail change-color" src="{{asset('assets/front_end/image/')}}/chicago.jpg" alt=""></a>
+                            <a href=""><img class="img-fluid img-thumbnail change-color" src="/storage/uploads/{{$post->image}}" alt=""></a>
                         </div>
                         <a class="change-color" href="#">
                             <h6>{{$post->title}}</h6>

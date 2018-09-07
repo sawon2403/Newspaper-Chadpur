@@ -28,7 +28,7 @@
                 <!--         scrolling text-->
                 <div class="col-md-6">
                     <marquee>
-                        <a href="#" style="color:white; line-height: 2.5;">A scrolling text created with HTML Marquee element. A scrolling text created with HTML Marquee element.A scrolling text created with HTML Marquee element.</a>
+                        <a href="" style="color:white; line-height: 2.5;">@foreach($posts as $post){{$post->title}}@endforeach</a>
                     </marquee>
                 </div>
                 <!--  social media icocn-->
