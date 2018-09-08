@@ -16,6 +16,7 @@
 Route::get('/','NewspaperWelcome@index');
 
 Route::get('/jatio','Front_end\CategoryController@jatio')->name('/jatio');
+Route::get('show/{id}','Front_end\CategoryController@show')->name('show');
 Route::get('/antarjatik','Front_end\CategoryController@antarjatik')->name('/antarjatik');
 Route::get('/chadpur','Front_end\CategoryController@chadpur')->name('/chadpur');
 Route::get('/khela','Front_end\CategoryController@khela')->name('/khela');

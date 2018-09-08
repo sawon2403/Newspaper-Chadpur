@@ -17,7 +17,7 @@
                             <h6>{{$post->title}}</h6>
                         </a>
                         <p>{{$post->short_description}}</p>
-                        <a href="individual-post.html" class="ini-post-overlay"></a>
+                        <a href="{{url('show',$post->id)}}" class="ini-post-overlay"></a>
                     </div>
 
                     <div class="time-date">
